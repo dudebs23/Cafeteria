@@ -217,7 +217,13 @@ html ::-webkit-scrollbar{
     margin-top: 50px;
 }
 #menu .card{
+    transition: 0.5s;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    cursor: pointer;
+}
+
+#menu .card:hover{
+    transform: translateY(-10px);
 }
 
 #menu h3{
@@ -248,6 +254,16 @@ html ::-webkit-scrollbar{
     width: 100%;
     background: #f7f5f2;
     font-family: 'Roboto', sans-serif;
+  }
+
+  #product .card{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+
+  #product .card:hover{
+    transform: translateY(-10px);
   }
   .heading4{
     text-align: center;
