@@ -239,3 +239,172 @@ html ::-webkit-scrollbar{
     cursor: pointer;
 }
 /*menu fim*/
+
+
+/*produt começo*/
+
+
+#product{
+    width: 100%;
+    background: #f7f5f2;
+    font-family: 'Roboto', sans-serif;
+  }
+  .heading4{
+    text-align: center;
+    color: #b2744c;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 70px;
+    border-bottom: 2px solid #b2744c;
+  }
+  #container3{
+    margin-top: 30px;
+  }
+  #product h3{
+    text-align: center;
+    color: #b2744c;
+    font-size: 23px;
+  }
+  #product p{
+    color: #b2744c;
+    padding-top: 10px;
+  }
+  #product p span{
+    float: right;
+    cursor: pointer;
+  }
+  /* produto fim */
+
+
+
+
+
+
+/*contato começo*/
+#contact{
+  width: 100%;
+  height: 100vh;
+  padding-top: 70px;
+}
+#contact .container{
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(90deg, white 80%, #b2744c 20%);
+    border-radius: 10px;
+}
+.heading5{
+    font-size: 30px;
+    margin-top: 70px;
+    font-weight: bold;
+}
+.heading5 span{
+    color: #b2744c;
+}
+#contact p{
+    font-weight: bold;
+    font-size: 13px;
+    color: black;
+}
+#contact input{
+    width: 360px;
+    border: none;
+    border-bottom: 1px solid #b2744c;
+}
+#contact-btn{
+    width: 200px;
+    height: 36px;
+    border: none;
+    background: #b2744c;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+    cursor: pointer;
+}
+#col{
+    width: 40%;
+    height: 56vh;
+    background: black;
+    margin-top: 78px;
+}
+#contact h1{
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#contact #col p{
+    font-size: 15px;
+    color: white;
+    margin-left: 13px;
+    margin-top: 30px;
+}
+@media screen and (max-width:766px){
+    #contact .container{
+        background: white;
+    }
+    #col{
+        width: 100%;
+        background: #b2744c;
+    }
+    #contact{
+        height: 150vh;
+    }
+}
+@media screen and (max-width:400px){
+    #contact input{
+        width: 250px;
+    }
+}
+
+/*contato fim*/
+
+
+
+/*footer começo*/
+#footer{
+    width: 100%;
+    background: #b2744c;
+    margin-top: 0px;
+    height: 100%;
+  }
+  #footer .socail-links i{
+    margin-left: 10px;
+    margin-top: 30px;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .credite{
+    color: white;
+    margin-top: 20px;
+  }
+  .credite{
+    text-shadow: 0px 0px 1px black;
+  }
+  .credite a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  .credite a span{
+    color: black;
+  }
+  .copyright span{
+    color: black;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  .arrow{
+    position: fixed;
+    border-radius: 50px;
+    height: 50px;
+    bottom: 40px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+  }
+
+/*footer fim*/
